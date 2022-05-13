@@ -25,13 +25,15 @@
         <div id="unity-build-title">3fellas</div>
       </div>
     </div>
+
+    <p>Controls: Move mouse around and left click. R to reset.</p>
     <script>
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/3fwgl.loader.js";
       var config = {
-        dataUrl: buildUrl + "/3fwgl.data",
-        frameworkUrl: buildUrl + "/3fwgl.framework.js",
-        codeUrl: buildUrl + "/3fwgl.wasm",
+        dataUrl: buildUrl + "/3fwgl.data.gz",
+        frameworkUrl: buildUrl + "/3fwgl.framework.js.gz",
+        codeUrl: buildUrl + "/3fwgl.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "3fellas",
